@@ -3,16 +3,7 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
     var dataS = String(msgData);
     var initial = dataS.split(":");
     if (ws.isdeveloper == true) {
-        if (msgData == 'heal ') {
-            ws.player.hp = 100
-            ws.player.barpercentage = 100
-        }
-        /*   if(msgData == 'tpall:hole '){
-               Object.keys(hole).forEach(function(da){
-               hole[da].x= ws.player.pos.x
-               hole[da].y = ws.player.pos.y
-               });
-           }*/
+     
         if (msgData == 'ecl ') {
             var count = 0
             for (let da in entities) {
@@ -36,8 +27,6 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
         if (msgData == 'up ') { ws.player.xp = 0 }
         if (msgData == 'invis:off ') { ws.player.isinvisible = false }
         if (msgData == 'invis:on ') { ws.player.isinvisible = true }
-        if (msgData == 's:1 ') { ws.player.infability = true }
-        if (msgData == 's:0 ') { ws.player.infability = false }
         if (msgData == 'stop ') { process.exit(1); }
         if (msgData == 'godmode:on ') {
             ws.player.godmode = true
@@ -45,10 +34,7 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
         if (msgData == 'godmode:off ') {
             ws.player.godmode = false
         }
-        for (var j in initial) {
-            console.log(initial[j])
-            if (isNaN(initial[j])) return
-        }
+     
         switch (initial[0]) {
 
             case "tpall":
