@@ -1,4 +1,5 @@
 # universalmope
+IF YOU HAVE ANY ISSUE WITH THIS PLEASE CONTACT ME TO THIS EMAIL : ahmetcanfr@hotmail.com
 An sandbox of mope.io.
 
 Here multiples examples of how it works
@@ -27,4 +28,4 @@ time is expressed in seconds.
       break
       }
 ```
-a
+
