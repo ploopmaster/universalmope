@@ -1,5 +1,5 @@
 # universalmope
-IF YOU HAVE ANY ISSUE WITH THIS PLEASE CONTACT ME TO THIS EMAIL : ahmetcanfr@hotmail.com
+IF YOU HAVE ANY ISSUE OR COMMERCIAL ISSUE WITH THIS PLEASE CONTACT ME TO THIS EMAIL : ahmetcanfr@hotmail.com
 
 An sandbox of mope.io.
 
