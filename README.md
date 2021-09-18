@@ -2,6 +2,8 @@
 IF YOU HAVE ANY ISSUE OR COMMERCIAL ISSUE WITH THIS PLEASE CONTACT ME TO THIS EMAIL : ahmetcanfr@hotmail.com
 JOIN THIS SERVER FOR HELP: https://discord.gg/KbFB8XhhrW
 
+NOTICE : DO NOT OPEN AN PUBLIC SERVER , I AM NO RESPONSIBLE FOR ANY ISSUES WITH AG WITH YOUR SERVER.
+
 An sandbox of mope.io.
 
 Here multiples examples of how it works
@@ -10,6 +12,7 @@ Abilities reload time
 
 File : playergameplay/abilitiesswitch.js
 time is expressed in seconds.
+
 
 
 ```javascript
