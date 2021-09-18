@@ -1,6 +1,6 @@
 # universalmope
 IF YOU HAVE ANY ISSUE OR COMMERCIAL ISSUE WITH THIS PLEASE CONTACT ME TO THIS EMAIL : ahmetcanfr@hotmail.com
-
+JOIN THIS SERVER : https://discord.gg/KbFB8XhhrW
 An sandbox of mope.io.
 
 Here multiples examples of how it works
