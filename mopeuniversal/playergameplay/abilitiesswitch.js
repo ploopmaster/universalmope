@@ -1,4 +1,6 @@
+const game1 = require("../game");
 
+const game = new game1()
 function abilitiesswitcher(ability) {
 
     var button = {
@@ -41,8 +43,8 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 0,//7
-                abil_firesectime: 0,//30
+                abil_time: 7,//7
+                abil_firesectime: 30,//30
                 abil_lastsecfireuse: 0,//last used fire
                 abil_timestamptouch: Date.now(),
                 abil_timestamp: Date.now(),
@@ -197,7 +199,7 @@ function abilitiesswitcher(ability) {
                 abil_recharging: false,
                 abil_possible: true,
                 abil_active: false,
-                abil_time: 0,
+                abil_time: 8,
                 abil_timestamp: Date.now(),
                 abil_noflags: [20, 19],
                 abil_bardivideusable: 1,
@@ -355,6 +357,7 @@ function abilitiesswitcher(ability) {
 
             break
     }
+    if (game.load(9) == true) button.abil_time = 0.1
     return button
 }
 abilitiesswitcher.prototype = {}
