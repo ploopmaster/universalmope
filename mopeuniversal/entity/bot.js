@@ -146,7 +146,7 @@ function newbot(respawn, writer, aobjids, entities, type, name, time, ghost, x, 
                         if (distance < newdis || distance1 < newdis || distance2 < newdis) {
                             attacking = true
                         } else if (distance > dadis || distance1 > dadis || distance2 > dadis) {
-                            attacking = false
+                            attacking = true
                         }
                         if (attacking) {
 
