@@ -8,7 +8,7 @@ var names = [
     "The baibeesh",
     "maimeesh",
     "peek a boo wali bilee",
-    "👑 King Of Agario - REAL,
+    "King Of Agario - REAL",
     "The god amongst men ",
     "Seth Rollins",
     "Nick Eh 30 (Family Friendly)",
