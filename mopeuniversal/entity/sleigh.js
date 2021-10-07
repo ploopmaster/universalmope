@@ -24,6 +24,17 @@ function newsleig(writer, aobjids, entities, time, objids, x, y, a, b, c) {
     entities[myid].pos.y = y
     entities[myid].mousex = x
     entities[myid].mousey = y
+    entities[myid].x = x
+    entities[myid].y = y
+    entities[myid].pos.x = x
+    entities[myid].pos.y = y
+    entities[myid].mousex = x
+    entities[myid].mousey = yentities[myid].x = x
+    entities[myid].y = y
+    entities[myid].pos.x = x
+    entities[myid].pos.y = y
+    entities[myid].mousex = x
+    entities[myid].mousey = y
 
     if (b == false) {
         setTimeout(() => {
