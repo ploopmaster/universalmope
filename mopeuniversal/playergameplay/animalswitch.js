@@ -304,7 +304,7 @@ function animalswitcher(player) {
                 lavaspeed: 9,
             }
             player.invincible = false
-            player.spearInHand = true
+            player.spearInHand = false
             player.canCreateFire = false
             player.abilitys.button_w = abilitiesswitcher(81);
             player.abilitys.button_w_mini = abilitiesswitcher(100);
@@ -367,7 +367,7 @@ function animalswitcher(player) {
                 oceanspeed: 2.4,
                 arcticspeed: 3.5,
                 lavaspeed: 3.25,
-                flyspeed: 12, // fly spped.
+                flyspeed: 18, // fly spped.
             }
 
             player.isgliding = false
