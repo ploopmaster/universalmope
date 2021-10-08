@@ -5,11 +5,11 @@ const gamemode = 0
 
 
 const maxplayers = 5
-const maxbots = 80
+const maxbots = 100
 const timeupgrade = 900 // in seconds
 const maxips = 3
 const botsabilityuse = false
-const collideeveryone = true
+const collideeveryone = false
 const respawnbots = true
 if (gamemode == 2) {
     gameW = 6000
