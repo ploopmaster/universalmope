@@ -193,7 +193,7 @@ function animalswitcher(player) {
                 oceanspeed: 10.20,
                 arcticspeed: 10.20,
                 lavaspeed: 10.20,
-                flyspeed: 20.20,
+                flyspeed: 100,
 
             }
             player.abilitys.button_w = abilitiesswitcher(78);
@@ -304,7 +304,7 @@ function animalswitcher(player) {
                 lavaspeed: 9,
             }
             player.invincible = false
-            player.spearInHand = false
+            player.spearInHand = true
             player.canCreateFire = false
             player.abilitys.button_w = abilitiesswitcher(81);
             player.abilitys.button_w_mini = abilitiesswitcher(100);
@@ -367,7 +367,7 @@ function animalswitcher(player) {
                 oceanspeed: 2.4,
                 arcticspeed: 3.5,
                 lavaspeed: 3.25,
-                flyspeed: 18, // fly spped.
+                flyspeed: 100, // fly spped.
             }
 
             player.isgliding = false
@@ -418,7 +418,7 @@ function animalswitcher(player) {
                 landspeed: 4.2,
                 oceanspeed: 3,
                 arcticspeed: 3.4,
-                lavaspeed: 4.2,
+                lavaspeed: 10.2,
 
             }
             player.bar.maxairbarpercentage = 60;
@@ -518,10 +518,10 @@ function animalswitcher(player) {
 
 
             player.speeds = {
-                landspeed: 21.25,
-                oceanspeed: 2.5,
-                arcticspeed: 12.25,
-                lavaspeed: 9,
+                landspeed: 8.25,
+                oceanspeed: 8.5,
+                arcticspeed: 8.25,
+                lavaspeed: 8,
 
             }
             player.bar.maxairbarpercentage = 200
