@@ -23,8 +23,8 @@ function rotate(cx, cy, x, y, angle, anticlock_wise = false) {
 }
 function tailbite(entities, player_1, player_2, distancemouth) {
 
-    if (entities[player_1].isdead == true) {
-        if (entities[player_2].isdead == true) {
+    if (entities[player_1].isdead == false) {
+        if (entities[player_2].isdead == false) {
 
 
 
