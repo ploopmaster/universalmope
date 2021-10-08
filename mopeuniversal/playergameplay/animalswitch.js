@@ -8,7 +8,7 @@ function animalswitcher(player) {
         case 79:
             player.tier = 16
             player.bar.normalbar = 2
-            player.nextxp = 100000000;
+            player.nextxp = 1000000000;
 
             player.flags.push(26)
             player.whichbiome = 6
@@ -20,10 +20,10 @@ function animalswitcher(player) {
             player.lessrad = 0.7
 
             player.speeds = {
-                landspeed: 4.04,
-                oceanspeed: 4.04,
-                arcticspeed: 4.04,
-                lavaspeed: 4.04,
+                landspeed: 9.04,
+                oceanspeed: 9.04,
+                arcticspeed: 9.04,
+                lavaspeed: 9.04,
             }
             player.bar.maxbarnormalpercentage = 500
             player.bar.normalbarpercentage = 500
@@ -83,10 +83,10 @@ function animalswitcher(player) {
             player.flags.push(26)
             player.whichbiome = 6
             player.speeds = {
-                landspeed: 4.04,
-                oceanspeed: 4.04,
-                arcticspeed: 4.04,
-                lavaspeed: 4.04,
+                landspeed: 9.04,
+                oceanspeed: 9.04,
+                arcticspeed: 9.04,
+                lavaspeed: 9.04,
             }
             player.bar.maxbarnormalpercentage = 500
             player.bar.normalbarpercentage = 500
@@ -100,7 +100,7 @@ function animalswitcher(player) {
             player.tier = 15
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 30000000;
+            player.nextxp = 10000000;
 
             player.baserad = 40
             player.addrad = 0.5
@@ -108,10 +108,10 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 4.20,
-                oceanspeed: 3.25,
-                arcticspeed: 4.04,
-                lavaspeed: 4.20,
+                landspeed: 9.20,
+                oceanspeed: 9.25,
+                arcticspeed: 9.04,
+                lavaspeed: 9.20,
             }
             player.poison = 100
 
@@ -125,7 +125,7 @@ function animalswitcher(player) {
             player.tier = 15
             player.bar.normalbar = 2
             player.whichbiome = 6
-            player.nextxp = 30000000;
+            player.nextxp = 10000000;
 
 
             player.baserad = 40
