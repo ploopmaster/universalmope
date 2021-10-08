@@ -290,7 +290,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 40
             player.addrad = 0.3
@@ -328,7 +328,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.flags.push(26)
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 50
             player.addrad = 0.3
@@ -355,7 +355,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 3
             player.whichbiome = 0
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.flags.push(26)
             player.baserad = 40
@@ -384,7 +384,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 60
             player.addrad = 0.4
@@ -407,7 +407,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 2
             player.whichbiome = 6
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 50
             player.addrad = 0.3
@@ -436,7 +436,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 1
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 45
             player.addrad = 0.3
@@ -461,7 +461,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 2
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
             player.transforming = false
 
             player.baserad = 40
@@ -490,7 +490,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 4
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.flags.push(26)
             player.speeds = {
@@ -514,7 +514,7 @@ function animalswitcher(player) {
 
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 1000000;
+            player.nextxp = 5000000;
 
 
             player.speeds = {
@@ -533,7 +533,7 @@ function animalswitcher(player) {
 
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 1000000;
+            player.nextxp = 500000;
 
             player.baserad = 30
             player.addrad = 0.2
@@ -555,7 +555,7 @@ function animalswitcher(player) {
             player.tier = 13
             player.bar.normalbar = 0
             player.whichbiome = 1
-            player.nextxp = 1000000;
+            player.nextxp = 500000;
 
             player.baserad = 45
             player.addrad = 0.3
@@ -576,7 +576,7 @@ function animalswitcher(player) {
             player.tier = 13
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 1000000;
+            player.nextxp = 500000;
 
             player.baserad = 40
             player.addrad = 0.3
@@ -598,7 +598,7 @@ function animalswitcher(player) {
             player.tier = 13
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 1000000;
+            player.nextxp = 500000;
 
 
             player.speeds = {
@@ -619,7 +619,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.abilitys.button_w_mini = abilitiesswitcher(100);
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             break;
     }
