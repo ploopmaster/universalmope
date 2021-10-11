@@ -5,15 +5,15 @@ const gamemode = 0
 
 
 const maxplayers = 5
-const maxbots = 100
+const maxbots = 999
 const timeupgrade = 999 // in seconds
 const maxips = 3
 const botsabilityuse = false
 const collideeveryone = false
 const respawnbots = true
 if (gamemode == 2) {
-    gameW = 6000
-    gameH = 6000
+    gameW = 100
+    gameH = 100
 
 }
 function game() {
