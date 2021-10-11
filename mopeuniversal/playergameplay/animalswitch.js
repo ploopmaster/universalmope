@@ -8,7 +8,7 @@ function animalswitcher(player) {
         case 79:
             player.tier = 16
             player.bar.normalbar = 2
-            player.nextxp = 1000000000;
+            player.nextxp = 3000000000;
 
             player.flags.push(26)
             player.whichbiome = 6
@@ -83,10 +83,10 @@ function animalswitcher(player) {
             player.flags.push(26)
             player.whichbiome = 6
             player.speeds = {
-                landspeed: 12.04,
-                oceanspeed: 12.04,
-                arcticspeed: 12.04,
-                lavaspeed: 12.04,
+                landspeed: 16.04,
+                oceanspeed: 16.04,
+                arcticspeed: 16.04,
+                lavaspeed: 16.04,
             }
             player.bar.maxbarnormalpercentage = 500
             player.bar.normalbarpercentage = 500
@@ -108,10 +108,10 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 12.04,
-                oceanspeed: 12.04,
-                arcticspeed: 12.04,
-                lavaspeed: 12.04,
+                landspeed: 16.04,
+                oceanspeed: 16.04,
+                arcticspeed: 16.04,
+                lavaspeed: 16.04,
             }
             player.poison = 100
 
@@ -134,10 +134,10 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 12.04,
+                landspeed: 16.04,
                 oceanspeed: 12.04,
                 arcticspeed: 12.04,
-                lavaspeed: 16.04,
+                lavaspeed: 20.04,
             }
 
             player.abilitys.button_w = abilitiesswitcher(66);
@@ -159,11 +159,11 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 12.04,
+                landspeed: 50.04,
                 oceanspeed: 12.04,
                 arcticspeed: 12.04,
                 lavaspeed: 12.04,
-                flyspeed: 10.00, // charge spped.
+                flyspeed: 20.00, // charge spped.
 
 
             }
@@ -193,7 +193,7 @@ function animalswitcher(player) {
                 oceanspeed: 12.04,
                 arcticspeed: 12.04,
                 lavaspeed: 12.04,
-                flyspeed: 90,
+                flyspeed: 60,
 
             }
             player.abilitys.button_w = abilitiesswitcher(78);
@@ -355,7 +355,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 3
             player.whichbiome = 0
-            player.nextxp = 5000000;
+            player.nextxp = 10000000;
 
             player.flags.push(26)
             player.baserad = 40
@@ -367,7 +367,7 @@ function animalswitcher(player) {
                 oceanspeed: 2.4,
                 arcticspeed: 3.5,
                 lavaspeed: 3.25,
-                flyspeed: 90, // fly spped.
+                flyspeed: 60, // fly spped.
             }
 
             player.isgliding = false
@@ -415,10 +415,10 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 4.2,
+                landspeed: 10.2,
                 oceanspeed: 3,
                 arcticspeed: 3.4,
-                lavaspeed: 10.2,
+                lavaspeed: 20.2,
 
             }
             player.bar.maxairbarpercentage = 60;
