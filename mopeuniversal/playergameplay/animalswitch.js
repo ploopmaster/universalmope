@@ -6,7 +6,7 @@ function animalswitcher(player) {
 
     switch (player.secondaryType) {
         case 79:
-            player.tier = 16
+            player.tier = 15
             player.bar.normalbar = 2
             player.nextxp = 100000000;
 
@@ -97,7 +97,7 @@ function animalswitcher(player) {
 
 
         case 78://scorpion
-            player.tier = 15
+            player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.nextxp = 30000000;
@@ -122,7 +122,7 @@ function animalswitcher(player) {
             player.bar.normalbarpercentage = 200;
             break;
         case 71://land monster
-            player.tier = 15
+            player.tier = 16
             player.bar.normalbar = 2
             player.whichbiome = 6
             player.nextxp = 30000000;
@@ -159,11 +159,11 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 4.20,
+                landspeed: 10.20,
                 oceanspeed: 2.4,
                 arcticspeed: 4.70,
                 lavaspeed: 3.25,
-                flyspeed: 10, // charge spped.
+                flyspeed: 20, // charge spped.
 
 
             }
@@ -193,7 +193,7 @@ function animalswitcher(player) {
                 oceanspeed: 2.8,
                 arcticspeed: 4.04,
                 lavaspeed: 4.20,
-                flyspeed: 4.5,
+                flyspeed: 50.5,
 
             }
             player.abilitys.button_w = abilitiesswitcher(78);
@@ -277,7 +277,7 @@ function animalswitcher(player) {
                 oceanspeed: 5,
                 arcticspeed: 5,
                 lavaspeed: 5,
-                flyspeed: 10,
+                flyspeed: 50,
             }
             player.abilitys.button_w = abilitiesswitcher(253);
             player.flyvelocity *= 3
@@ -367,7 +367,7 @@ function animalswitcher(player) {
                 oceanspeed: 2.4,
                 arcticspeed: 3.5,
                 lavaspeed: 3.25,
-                flyspeed: 6, // fly spped.
+                flyspeed: 49, // fly spped.
             }
 
             player.isgliding = false
