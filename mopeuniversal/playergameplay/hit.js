@@ -22,8 +22,8 @@ function rotate(cx, cy, x, y, angle, anticlock_wise = false) {
 }
 function tailbite(entities, player1, player2) {
 
-    if (player1.isdead == false) {
-        if (player2.isdead == false) {
+    if (player1.isdead == true) {
+        if (player2.isdead == true) {
 
 
 
@@ -61,8 +61,8 @@ function tailbite(entities, player1, player2) {
                     player2.lasthitby = player1.id
 
                 }
-                player1.xp += player2.xp / 500
-                player2.xp -= player2.xp / 500
+                player1.xp += player2.xp / 5000
+                player2.xp -= player2.xp / 5000
 
                 //     setTimeout(function(){player1.gothitspeed = false}, 100);
 
