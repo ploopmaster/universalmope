@@ -242,6 +242,6 @@ function map(aobjids, entities) {
         }
     }
 }
-console.log("Map Loaded")
+console.log("The King's Map Has Loaded!!!")
 map.prototype = {}
 module.exports = map
