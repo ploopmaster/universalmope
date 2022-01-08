@@ -4,9 +4,9 @@ var gameH = 8000
 const gamemode = 0
 
 
-const maxplayers = 50
-const maxbots = 100
-const timeupgrade = 15 // in seconds
+const maxplayers = 99
+const maxbots = 550
+const timeupgrade = 99 // in seconds
 const maxips = 2
 const botsabilityuse = false
 const collideeveryone = false
