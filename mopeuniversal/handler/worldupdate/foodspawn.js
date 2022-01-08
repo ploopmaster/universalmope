@@ -17,7 +17,8 @@ function foodspawn(entities, objectid, aobjids) {
 
                 case 1:
                     if (entities[objectid].mushroomamount < entities[objectid].maxmushroomamount) {
-                        let random = util.randomNumber(0, 100)
+                         = '200'
+                      
 
                         entities[objectid].addedmushroom();
                         let objids = aobjids.giveid(true);
@@ -29,7 +30,7 @@ function foodspawn(entities, objectid, aobjids) {
                             , y: util.randomNumber(entities[objectid].y - entities[objectid].height / 2,
                                 entities[objectid].y + entities[objectid].height / 2)
                         }
-                        if (util.isnumbcorrectbetween(0, 15, random)) {
+                        if (util.isnumbcorrectbetween(0, 9999, random)) {
                             entities[objids] = new redmushroom(objids, entities[objectid].id, newpos.x, newpos.y)
                         } else {
                             entities[objids] = new mushroom(objids, entities[objectid].id, newpos.x, newpos.y)
@@ -38,7 +39,7 @@ function foodspawn(entities, objectid, aobjids) {
                     }
                     break;
                 case 4:
-                    if (entities[objectid].foodamount < 12) {
+                    if (entities[objectid].foodamount < 99999) {
                         let objids = aobjids.giveid(true);
                         let newpos = util.rotate(entities[objectid].x, entities[objectid].y, entities[objectid].x + entities[objectid].radius, entities[objectid].y, util.randomNumber(0, 360))
                         entities[objectid].addedfood();
@@ -46,7 +47,7 @@ function foodspawn(entities, objectid, aobjids) {
                     }
                     break
                 case 27:
-                    if (entities[objectid].foodamount < 10) {
+                    if (entities[objectid].foodamount < 999999) {
                         let objids = aobjids.giveid(true);
                         let newpos = util.rotate(entities[objectid].x, entities[objectid].y, entities[objectid].x + entities[objectid].radius, entities[objectid].y, util.randomNumber(0, 360))
                         entities[objectid].addedfood();
@@ -54,10 +55,10 @@ function foodspawn(entities, objectid, aobjids) {
                     }
                     break
                 case 44:
-                    if (entities[objectid].foodamount < 2) {
-                        let which = (Math.floor(Math.random() * 2))
+                    if (entities[objectid].foodamount < 999999) {
+                        let which = (Math.floor(Math.random() * 999999))
                         entities[objectid].addedfood()
-                        if (which == 1) {
+                        if (which == 999999) {
                             let objids = aobjids.giveid(true);
                             let newpos = util.rotate(entities[objectid].x, entities[objectid].y, entities[objectid].x + util.randomNumber(entities[objectid].radius / 2, entities[objectid].radius), entities[objectid].y, util.randomNumber(0, 360))
                             entities[objids] = new watermelon(objids, entities[objectid].id, newpos.x, newpos.y)
