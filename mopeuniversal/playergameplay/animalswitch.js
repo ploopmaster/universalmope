@@ -13,7 +13,7 @@ function animalswitcher(player) {
             player.flags.push(26)
             player.whichbiome = 6
             player.canUseTailslap = true
-            player.tailState = 0;
+            player.tailState = 2;
 
             player.baserad = 100
             player.addrad = 0.3
@@ -367,7 +367,7 @@ function animalswitcher(player) {
                 oceanspeed: 2.4,
                 arcticspeed: 3.5,
                 lavaspeed: 3.25,
-                flyspeed: 6, // fly spped.
+                flyspeed: 70, // fly spped.
             }
 
             player.isgliding = false
